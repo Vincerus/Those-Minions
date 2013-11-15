@@ -26,6 +26,7 @@ Par Vince Lavoie
 	font-family: Arial Rounded MT Bold; 
 	box-shadow: 5px 5px 10px black;
 	z-index:1000;
+	top:0;
 	
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
