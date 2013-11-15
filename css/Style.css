@@ -1,0 +1,302 @@
+/*
+Style.css
+________________
+Par Vince Lavoie
+*/
+
+/* Style de la partie MENU */
+
+
+#header 
+{
+	background-image: -ms-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: -moz-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: -o-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #696969), color-stop(1, #363636));
+	background-image: -webkit-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: linear-gradient(to top, #696969 0%, #363636 100%);
+	background-size:auto 75px;
+	background-repeat:no-repeat;
+	
+	position: fixed;
+	width: 1020px;
+	left: 50%;
+	margin-left: -510px;
+	height:75px;
+	font-family: Arial Rounded MT Bold; 
+	box-shadow: 5px 5px 10px black;
+	z-index:1000;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+	
+	#TopMenuList
+	{
+		float:left;
+		list-style:none;
+		margin : auto;
+		position: absolute;
+		top: 33%;
+		left: 0px;
+	}
+
+		#TopMenuList li
+			{
+				display:inline;	
+				margin-right:20px;
+			}
+	
+	#TopLienList 
+	{
+		float:right;
+		list-style:none;
+		margin : auto;
+		position: absolute;
+		top: 12px;
+		right: 15px;
+	}
+	
+		#TopLienList li
+			{
+				display:inline;
+				margin-left:15px;
+			}
+
+	.button {
+	   border-top: 1px solid #000000;
+	   background: #000000;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#030003), to(#000000));
+	   background: -webkit-linear-gradient(top, #030003, #000000);
+	   background: -moz-linear-gradient(top, #030003, #000000);
+	   background: -ms-linear-gradient(top, #030003, #000000);
+	   background: -o-linear-gradient(top, #030003, #000000);
+	   padding: 8.5px 17px;
+	   -webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	   border-radius: 3px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #fcfcfc;
+	   font-size: 17px;
+	   font-family: Georgia, Serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	}
+	
+	.button:hover {
+		border-top-color: #6e038c;
+		background: #6e038c;
+		color: #ffffff;
+	}
+	
+	.button:active {
+		border-top-color: #6e038c;
+		background: #6e038c;
+	}	
+			
+/* Style de la partie BOOOOOOODY */
+
+			
+body
+{ 
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #6E038C));
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
+	background-image: linear-gradient(to top, #FFFFFF 0%, #6E038C 100%);
+	background-size:auto 750px;
+	background-repeat:no-repeat;
+	
+	margin-left:0;
+	padding:0;
+}
+
+#Logo
+{
+	position: absolute;
+	width: 1000px;
+	left: 50%;
+	top: 120px;
+	margin-left: -500px;
+}
+
+	#Logo h1
+	{
+		float:left;
+	}
+
+	#Logo h2
+	{
+		text-align: left;
+		text-indent:15px;
+		color: #ffffff;
+		text-shadow: 2px 2px black;
+		font-size:50px;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	}
+
+	#Logo p
+	{
+		text-align: left;
+		text-indent:15px;
+		color: #ffffff;
+		font-size:25px;
+		font-family: "Andale Mono", AndaleMono, monospace;
+	}
+
+#content 
+{
+	background-image: -ms-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: -moz-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: -o-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #696969), color-stop(1, #363636));
+	background-image: -webkit-linear-gradient(bottom, #696969 0%, #363636 100%);
+	background-image: linear-gradient(to top, #696969 0%, #363636 100%);
+	background-size:1000px 700px;
+	background-repeat:no-repeat;
+	
+	position: absolute;
+	width: 1000px;
+	left: 50%;
+	top: 400px;
+	margin-left: -500px;
+	height:520px;
+	font-family: Arial Rounded MT Bold; 
+	box-shadow: 5px 5px 10px black;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+} 
+
+	#articleContainer 
+	{
+		background:black;
+		position: absolute;
+		width: 980px;
+		left: 51%;
+		top: 10px;
+		margin-left: -500px;
+		height:500px;
+		font-family: Arial Rounded MT Bold; 
+		box-shadow: 5px 5px 10px black;
+		
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+		
+		#articleHeader
+		{
+			background:#6e038c;
+			position: absolute;
+			top:0;
+			width: 980px;
+			left: 51%;
+			margin-left: -500px;
+			height:50px;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
+
+			#articleHeader h1
+			{
+				margin-top:7px;
+				
+				text-align:left;
+				text-indent:25px;
+				color: #ffffff;
+				text-shadow: 2px 2px black;
+				font-size:25px;
+				font-family: Georgia, Serif;
+			
+			}
+		
+		#articleBody
+		{
+			position: absolute;
+			top:50px;
+			width: 980px;
+			left: 51%;
+			margin-left: -500px;
+		}
+		
+			#articleBody p
+			{
+				margin-left:10px;
+				margin-right:10px;
+				text-align:justify;
+				color: #ffffff;
+				font-size:20px;
+				font-family: Georgia, Serif;
+			}
+		
+		#articleFooter
+		{
+			background:#6e038c;
+			position: absolute;
+			bottom:0;
+			width: 980px;
+			left: 51%;
+			margin-left: -500px;
+			height:30px;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
+
+			#articleFooter h1
+			{
+				width:940px;
+				text-align:right;
+				color: #ffffff;
+				text-shadow: 2px 2px black;
+				font-size:10px;
+				font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+			}
+/* Style de la partie FOOOOOOTER */
+
+
+
+#prefooter 
+{
+	position: absolute;
+	width: 100%;
+	top: 550px;
+	height:200px;
+} 
+
+#PartieNoire 
+{
+	position: absolute;
+	width: 100%;
+	background-color:black;
+	top: 550px;
+	height:250px;
+} 
+
+#footer {
+  position: Fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+  background:black;
+  color:#ffffff; 
+  border-top:thick solid #FFFFFF;
+  border-top-width:1px;
+}
+	
+	#footer p
+	{
+		color: #fff;
+		font: helvetica,arial,sans-serif;
+		font-size: 0.8em;
+		text-align: right;
+		margin-right : 20px;
+	}
