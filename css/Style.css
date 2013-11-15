@@ -89,14 +89,14 @@ Par Vince Lavoie
 	}
 	
 	.button:hover {
-		border-top-color: #6e038c;
-		background: #6e038c;
+		border-top-color: #EB2900;
+		background: #EB2900;
 		color: #ffffff;
 	}
 	
 	.button:active {
-		border-top-color: #6e038c;
-		background: #6e038c;
+		border-top-color: #EB2900;
+		background: #EB2900;
 	}	
 			
 /* Style de la partie BOOOOOOODY */
@@ -104,12 +104,12 @@ Par Vince Lavoie
 			
 body
 { 
-	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
-	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
-	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #6E038C));
-	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #6E038C 100%);
-	background-image: linear-gradient(to top, #FFFFFF 0%, #6E038C 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EB2900 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EB2900 100%);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EB2900 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #EB2900));
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EB2900 100%);
+	background-image: linear-gradient(to top, #FFFFFF 0%, #EB2900 100%);
 	background-size:auto 750px;
 	background-repeat:no-repeat;
 	
