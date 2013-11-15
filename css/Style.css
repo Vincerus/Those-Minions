@@ -194,7 +194,7 @@ body
 		
 		#articleHeader
 		{
-			background:#FF2D00;
+			background:#EB2900;
 			position: absolute;
 			top:0;
 			width: 980px;
@@ -240,7 +240,7 @@ body
 		
 		#articleFooter
 		{
-			background:#FF2D00;
+			background:#EB2900;
 			position: absolute;
 			bottom:0;
 			width: 980px;
@@ -258,7 +258,7 @@ body
 				text-align:right;
 				color: #ffffff;
 				text-shadow: 2px 2px black;
-				font-size:10px;
+				font-size:12px;
 				font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 			}
 /* Style de la partie FOOOOOOTER */
