@@ -98,7 +98,25 @@ Par Vince Lavoie
 		border-top-color: #EB2900;
 		background: #EB2900;
 	}	
-			
+	
+	.buttonActif {
+	border-top: 1px solid #000000;
+	   background: #EB2900;
+	   padding: 8.5px 17px;
+	   -webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	   border-radius: 3px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: #fcfcfc;
+	   font-size: 17px;
+	   font-family: Georgia, Serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	}
+	
 /* Style de la partie BOOOOOOODY */
 
 			
