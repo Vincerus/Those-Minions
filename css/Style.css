@@ -265,7 +265,7 @@ body
 
 
 
-#prefooter 
+#footer 
 {
 	position: absolute;
 	width: 100%;
@@ -281,20 +281,10 @@ body
 	top: 550px;
 	height:250px;
 } 
-
-#footer {
-  position: Fixed;
-  bottom: 0px;
-  width: 100%;
-  margin-bottom: 0px;
-  background:black;
-  color:#ffffff; 
-  border-top:thick solid #FFFFFF;
-  border-top-width:1px;
-}
 	
 	#footer p
 	{
+		margin-top:200px;
 		color: #fff;
 		font: helvetica,arial,sans-serif;
 		font-size: 0.8em;
